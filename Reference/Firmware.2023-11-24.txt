@@ -1,0 +1,94 @@
+11:31:04.925 : N6 T0*60
+11:31:04.925 : FIRMWARE_NAME: RepRapFirmware for STM32F4 based Boards FIRMWARE_VERSION: 3.4.1_102 ELECTRONICS: STM32F4 FIRMWARE_DATE: 2022-06-06 23:48:39
+
+
+11:31:04.926 : N11 T0*10
+11:31:04.946 : X:0.000 Y:0.000 Z:0.000 E:0.000 E0:-0.0 Count 0 0 0 Machine 0.000 0.000 0.000 Bed comp 0.000
+11:31:04.946 : Use P parameter to specify which module to debug
+11:31:04.946 : Begin file list
+11:31:04.947 : NONE
+11:31:04.948 : End file list
+11:31:04.950 : Use P parameter to specify which module to debug
+
+
+11:33:21.254 : N56 M115*21
+11:33:21.254 : FIRMWARE_NAME: RepRapFirmware for STM32F4 based Boards FIRMWARE_VERSION: 3.4.1_102 ELECTRONICS: STM32F4 FIRMWARE_DATE: 2022-06-06 23:48:39
+
+
+11:33:51.501 : N69 M122*29
+11:33:51.505 : === Diagnostics ===
+11:33:51.505 : RepRapFirmware for STM32F4 based Boards (biqoctopuspro_1.0) version 3.4.1_102 (2022-06-06 23:48:51) running on STM32F4
+11:33:51.505 : Board ID: D1003-0S17L-D2MVS-6Q1GN-G7GTQ-70000
+11:33:51.505 : Used output buffers: 1 of 40 (2 max)
+11:33:51.505 : === RTOS ===
+11:33:51.505 : Static ram: 19532
+11:33:51.505 : Dynamic ram: 83552 of which 28 recycled
+11:33:51.505 : Never used RAM 26932, free system stack 188 words
+11:33:51.505 : CCMRam static ram: 16760 dynamic ram: 20244 free ram 28528
+11:33:51.506 : Tasks: NETWORK(ready,5.1%,410) HEAT(notifyWait,0.0%,349) Move(notifyWait,0.0%,361) TMC22xx(notifyWait,1.6%,140) FSWRITE(notifyWait,0.0%,566) MAIN(running,92.0%,430) IDLE(ready,1.2%,29), total 100.0%
+11:33:51.506 : Owned mutexes: BITIO(TMC22xx) USB(MAIN)
+11:33:51.506 : === Platform ===
+11:33:51.506 : Last reset 00:04:47 ago, cause: [power on/off]
+11:33:51.506 : Last software reset details not available
+11:33:51.506 : Error status: 0x00
+11:33:51.506 : Step timer max interval 0
+11:33:51.506 : MCU temperature: min 29.9, current 33.5, max 33.5
+11:33:51.506 : Supply voltage: min 24.0, current 24.0, max 24.0, under voltage events: 0, over voltage events: 0, power good: yes
+11:33:51.506 : Heap OK, handles allocated/used 0/0, heap memory allocated/used/recyclable 0/0/0, gc cycles 0
+11:33:51.506 : Events: 1 queued, 1 completed
+11:33:51.506 : Driver 0: standstill 2209, SG min 0, reads 14312, writes 9
+11:33:51.506 : Driver 1: standstill 2209, SG min 0, reads 14312, writes 9
+11:33:51.506 : Driver 2: standstill 2209, SG min 0, reads 14312, writes 9
+11:33:51.506 : Driver 3: standstill 2209, SG min 0, reads 14312, writes 9
+11:33:51.506 : Driver 4: standstill 2209, SG min 0, reads 14311, writes 9
+11:33:51.506 : Driver 5: standstill 2209, SG min 0, reads 14311, writes 9
+11:33:51.506 : Driver 6: standstill 2209, SG min 0, reads 14311, writes 9
+11:33:51.506 : Driver 7:
+11:33:51.506 : Driver 8:
+11:33:51.506 : Driver 9:
+11:33:51.506 : Driver 10:
+11:33:51.506 : Driver 11:
+11:33:51.506 : Driver 12:
+11:33:51.506 : Driver 13:
+11:33:51.506 : Date/time: 1970-01-01 00:00:00
+11:33:51.506 : Slowest loop: 4.01ms; fastest: 0.09ms
+11:33:51.506 : === Storage ===
+11:33:51.506 : Free file entries: 10
+11:33:51.506 : SD card 0 detected
+11:33:51.506 : SD card longest read time 3.0ms, write time 0.0ms, max retries 0
+11:33:51.506 : === Move ===
+11:33:51.507 : DMs created 83, segments created 0, maxWait 0ms, bed compensation in use: none, comp offset 0.000
+11:33:51.507 : === MainDDARing ===
+11:33:51.507 : Scheduled moves 0, completed 0, hiccups 0, stepErrors 0, LaErrors 0, Underruns [0, 0, 0], CDDA state -1
+11:33:51.507 : === AuxDDARing ===
+11:33:51.507 : Scheduled moves 0, completed 0, hiccups 0, stepErrors 0, LaErrors 0, Underruns [0, 0, 0], CDDA state -1
+11:33:51.507 : === Heat ===
+11:33:51.507 : Bed heaters 0 -1 -1 -1, chamber heaters -1 -1 -1 -1, ordering errs 0
+11:33:51.507 : Heater 1 is on, I-accum = 0.0
+11:33:51.507 : === GCodes ===
+11:33:51.507 : Segments left: 0
+11:33:51.507 : Movement lock held by null
+11:33:51.507 : HTTP is idle in state(s) 0
+11:33:51.507 : File is idle in state(s) 0
+11:33:51.507 : USB is ready with "M122" in state(s) 0
+11:33:51.507 : Aux is idle in state(s) 0
+11:33:51.507 : Trigger is idle in state(s) 0
+11:33:51.507 : Queue is idle in state(s) 0
+11:33:51.507 : LCD is idle in state(s) 0
+11:33:51.507 : Daemon is idle in state(s) 0
+11:33:51.507 : Autopause is idle in state(s) 0
+11:33:51.508 : Code queue is empty
+11:33:51.508 : === Filament sensors ===
+11:33:51.508 : Extruder 0 sensor: no filament
+11:33:51.508 : === Network ===
+11:33:51.508 : Slowest loop: 200.07ms; fastest: 0.00ms
+11:33:51.508 : Responder states: HTTP(0) HTTP(0) HTTP(0) HTTP(0)
+11:33:51.508 : HTTP sessions: 0 of 8
+11:33:51.508 : Uploads/Errors: 0/0
+11:33:51.508 : - WiFi -
+11:33:51.508 : Network state is disabled
+11:33:51.508 : WiFi module is disabled
+11:33:51.508 : Failed messages: pending 0, notready 0, noresp 1
+11:33:51.508 : Bad header: 0/0
+11:33:51.508 : Socket states: 0 0 0 0 0 0 0 0
+

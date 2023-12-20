@@ -1,0 +1,8 @@
+M104 S0
+M190 S0
+M140 S[first_layer_bed_temperature]
+M190 S[first_layer_bed_temperature]
+G32
+M104 S[first_layer_temperature]
+M109 S[first_layer_temperature]
+M98 P"Nozzle-clean.g"

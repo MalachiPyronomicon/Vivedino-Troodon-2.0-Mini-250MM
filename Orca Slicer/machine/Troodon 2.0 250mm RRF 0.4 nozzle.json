@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "inherits": "Troodon 2.0 RRF 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Troodon 2.0 250mm RRF 0.4 nozzle",
+    "printable_area": [
+        "0x0",
+        "250x0",
+        "250x250",
+        "0x250"
+    ],
+    "printable_height": "230",
+    "printer_notes": "1. Troodon 2.0 RRF 0.4 nozzle profile\n2. Set print area 250x250, print height 230",
+    "printer_settings_id": "Troodon 2.0 250mm RRF 0.4 nozzle",
+    "version": "1.9.0.2"
+}

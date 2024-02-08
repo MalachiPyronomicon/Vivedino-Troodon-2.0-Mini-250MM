@@ -2,6 +2,8 @@
     "from": "User",
     "inherits": "Troodon 2.0 RRF 0.4 nozzle",
     "is_custom_defined": "0",
+    "machine_end_gcode": "G91  ;relative positioning\nG1 E-5.00 F1000  ;retract 5mm of filament\nG1 Z+1.00 X+20.0 Y+20.0 F20000  ;short quick move to disengage from print\nG1 Z+10.00  F20000  ;move Z-Axis 10mm away from part\nG90  ;absolute positioning\nG28 X0 Y0  ; move gantry close to home\nG91  ; relative positioning\nG1 E-5.00 F500  ;retract additional filament to prevent oozing\nG90 ;absolute positioning\nM104 S0  ;turn off hotend\nM140 S0  ;turn off heatbed\nM106 S0  ; shut off blower\nM84  ;motors off",
+    "machine_start_gcode": "M104 S0\nM190 S0\nM140 S[first_layer_bed_temperature]\nM190 S[first_layer_bed_temperature]\nG32\nM104 S[first_layer_temperature]\nM109 S[first_layer_temperature]\nM98 P\"Nozzle-clean.g\"",
     "name": "Troodon 2.0 250mm RRF 0.4 nozzle",
     "printable_area": [
         "0x0",
@@ -10,7 +12,7 @@
         "0x250"
     ],
     "printable_height": "230",
-    "printer_notes": "1. Troodon 2.0 RRF 0.4 nozzle profile\n2. Set print area 250x250, print height 230",
+    "printer_notes": "1. Troodon 2.0 RRF 0.4 nozzle profile\n2. Set print area 250x250, print height 230\n3. Copy gcode from Vivedino's official PrusaSlicer printer profile.",
     "printer_settings_id": "Troodon 2.0 250mm RRF 0.4 nozzle",
     "version": "1.9.0.2"
 }
